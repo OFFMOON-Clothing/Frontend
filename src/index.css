@@ -7,3 +7,10 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+@font-face {
+  font-family: 'Wushin';
+  src: url('/src/assets/fonts/Wushin.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}

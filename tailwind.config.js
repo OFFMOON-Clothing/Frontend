@@ -8,7 +8,10 @@ export default {
     extend: {
       colors:{
         "offmoon-black": "#000000",
-      }
+      },
+       fontFamily: {
+      wushin: ['Wushin', 'sans-serif'],
+    },
     },
   },
   plugins: [],
