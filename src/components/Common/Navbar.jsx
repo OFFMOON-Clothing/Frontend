@@ -24,17 +24,17 @@ const Navbar = () => {
             <nav className="container mx-auto flex items-center justify-between py-4 px-6">
                 {/* Left - Logo */}
                 <div>
-                    <Link to="/" className="text-5xl italic font-wushin font-bold">
+                    <Link to="/" className="text-6xl italic font-wushin font-bold">
                         OFFMOON
                     </Link>
                 </div>
 
                 {/* Center - Navigation Links */}
                 <div className="hidden md:flex space-x-6">
-                    <Link to="#" className="text-black hover:text-gray-700 text-2xl font-bold uppercase">
+                    <Link to="#" className="text-black hover:text-gray-700 text-4xl font-bold uppercase">
                         Men
                     </Link>
-                    <Link to="#" className="text-black hover:text-gray-700 text-2xl font-bold uppercase">
+                    <Link to="#" className="text-black hover:text-gray-700 text-4xl font-bold uppercase">
                         Women
                     </Link>
                 </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 </div>
                 <div className="p-4">
                     <h2 className="text-5xl font-bold text-black mb-4">Menu</h2>
-                    <nav className="space-y-4">
+                    <nav className="space-y-3">
                         <Link to="#" onClick={toggleNavDrawer} className="block text-3xl text-black hover:text-gray-700 mb-2">
                             Men
                         </Link>
